@@ -1,2 +1,3 @@
-# Cousera_Scala
-Functional Programming in Scala by Martin Odersky
+##Notes and Feedback
+- avoid using return
+- 
