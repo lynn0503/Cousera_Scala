@@ -169,11 +169,11 @@ object Huffman {
     *    the example invocation. Also define the return type of the `until` function.
     *  - try to find sensible parameter names for `xxx`, `yyy` and `zzz`.
     */
-  def until(ifSingle: List[CodeTree] => Boolean,
-            combine: List[CodeTree] => List[CodeTree])(
+  def until(ifsgl: List[CodeTree] => Boolean,
+            cmb: List[CodeTree] => List[CodeTree])(
       listofCodeTrees: List[CodeTree]): CodeTree = {
-    if (ifSingle(listofCodeTrees)) listofCodeTrees.head
-    else until(ifSingle, combine)(listofCodeTrees.tail)
+    if (ifsgl(listofCodeTrees)) listofCodeTrees.head
+    else until(ifsgl, cmb)(cmb(listofCodeTrees))
   }
 
   /**
