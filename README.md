@@ -1,21 +1,18 @@
 ## Course structure
-- Program paradigms
-- Evaluation Strategy and Termination
-- Call-by-name and Call-by-value
-- Conditions and value definition
-- Block and Scope
-- Tail recursion
-- Higher-order function
-- Currying
-- Functions and Data
-- Data Abstraction
-- Class evaluation and Operators
-- Class Hierarchies
-- trait
-- polymorphism
-- primitives as object
-- functions as object
-- subtyping and generics
-- decomposition
-- pattern matching
-- List in Scala
+- Functional Programming Principles 
+    - Functions and evalution
+    - High-order functions
+    - Data and abstraction
+    - Types and Pattern Matching
+    - Lists
+    - Collections
+- Functional Program Design
+    - For expression and Monads
+    - Lazy evaluation
+    - Functions and state
+    - Timely effects
+- Parallel Computing
+    - Introduction to parallel computing
+    - Task parallelism
+    - Data parallelism
+    - Data structures for parallel computing
